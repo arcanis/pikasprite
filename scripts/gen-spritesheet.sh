@@ -71,7 +71,7 @@ for PASS in pkmns items; do
         items) W=32 H=32 OPTS=(-name '*.png' -a -not -wholename './pokemon/*');;
     esac
 
-    find "${OPTS[@]}" | sed 's|^\./||' | while read ICON_FILE; do
+    find "${OPTS[@]}" | sed 's|^\./||' | sort | while read ICON_FILE; do
         RW=$(identify -format "%w" "$ICON_FILE")> /dev/null
         RH=$(identify -format "%h" "$ICON_FILE")> /dev/null
 
@@ -110,7 +110,7 @@ for PASS in pkmns items; do
     FINAL_IMAGE_PATH="${IMAGE_PATH//%%/$PASS}"
 
     echo "Montage..."
-    montage -background transparent -tile "${X}x${Y}" -geometry "${W}x${H}" @"${MONTAGE_FILE}" "${FINAL_IMAGE_PATH}"
+    montage -background transparent -tile "${COLUMNS}x" -geometry "${W}x${H}" @"${MONTAGE_FILE}" "${FINAL_IMAGE_PATH}"
 
     echo "Crushing..."
     pngcrush -q -brute -ow "${FINAL_IMAGE_PATH}"

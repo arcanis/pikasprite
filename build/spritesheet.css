@@ -6,7 +6,9 @@
   background-image: url(./spritesheet-items.png);
 }
 .pkspr[class^="pokemon-"]:before,
-.pkspr[class*=" pokemon-"]:before {
+.pkspr[class*=" pokemon-"]:before,
+.pkspr[class^="dex-"]:before,
+.pkspr[class*=" dex-"]:before {
   width: 40px;
   height: 30px;
   background-image: url(./spritesheet-pkmns.png);
@@ -153,23 +155,23 @@
 .pkspr.pokemon-arceus-ice:before {
   background-position: -320px -30px;
 }
-.pkspr.pokemon-arceus-poison:before {
-  background-position: -360px -30px;
-}
-.pkspr.pokemon-arceus-psychic:before {
-  background-position: -400px -30px;
-}
-.pkspr.pokemon-arceus-rock:before {
-  background-position: -440px -30px;
-}
-.pkspr.pokemon-arceus-steel:before {
-  background-position: -480px -30px;
-}
-.pkspr.pokemon-arceus-water:before {
-  background-position: -520px -30px;
-}
 .pkspr.pokemon-arceus:before,
 .pkspr.dex-0493:before {
+  background-position: -360px -30px;
+}
+.pkspr.pokemon-arceus-poison:before {
+  background-position: -400px -30px;
+}
+.pkspr.pokemon-arceus-psychic:before {
+  background-position: -440px -30px;
+}
+.pkspr.pokemon-arceus-rock:before {
+  background-position: -480px -30px;
+}
+.pkspr.pokemon-arceus-steel:before {
+  background-position: -520px -30px;
+}
+.pkspr.pokemon-arceus-water:before {
   background-position: -560px -30px;
 }
 .pkspr.pokemon-archen:before,
@@ -414,14 +416,14 @@
 .pkspr.dex-0659:before {
   background-position: -480px -90px;
 }
-.pkspr.pokemon-burmy-sandy:before {
-  background-position: -520px -90px;
-}
-.pkspr.pokemon-burmy-trash:before {
-  background-position: -560px -90px;
-}
 .pkspr.pokemon-burmy:before,
 .pkspr.dex-0412:before {
+  background-position: -520px -90px;
+}
+.pkspr.pokemon-burmy-sandy:before {
+  background-position: -560px -90px;
+}
+.pkspr.pokemon-burmy-trash:before {
   background-position: -600px -90px;
 }
 .pkspr.pokemon-butterfree:before,
@@ -467,17 +469,17 @@
 .pkspr.dex-0268:before {
   background-position: -1040px -90px;
 }
-.pkspr.pokemon-castform-rainy:before {
-  background-position: -1080px -90px;
-}
-.pkspr.pokemon-castform-snowy:before {
-  background-position: -1120px -90px;
-}
-.pkspr.pokemon-castform-sunny:before {
-  background-position: -1160px -90px;
-}
 .pkspr.pokemon-castform:before,
 .pkspr.dex-0351:before {
+  background-position: -1080px -90px;
+}
+.pkspr.pokemon-castform-rainy:before {
+  background-position: -1120px -90px;
+}
+.pkspr.pokemon-castform-snowy:before {
+  background-position: -1160px -90px;
+}
+.pkspr.pokemon-castform-sunny:before {
   background-position: -1200px -90px;
 }
 .pkspr.pokemon-caterpie:before,
@@ -526,11 +528,11 @@
 .pkspr.dex-0441:before {
   background-position: -400px -120px;
 }
-.pkspr.pokemon-cherrim-sunshine:before {
-  background-position: -440px -120px;
-}
 .pkspr.pokemon-cherrim:before,
 .pkspr.dex-0421:before {
+  background-position: -440px -120px;
+}
+.pkspr.pokemon-cherrim-sunshine:before {
   background-position: -480px -120px;
 }
 .pkspr.pokemon-cherubi:before,
@@ -709,11 +711,11 @@
 .pkspr.dex-0491:before {
   background-position: -960px -150px;
 }
-.pkspr.pokemon-darmanitan-zen:before {
-  background-position: -1000px -150px;
-}
 .pkspr.pokemon-darmanitan:before,
 .pkspr.dex-0555:before {
+  background-position: -1000px -150px;
+}
+.pkspr.pokemon-darmanitan-zen:before {
   background-position: -1040px -150px;
 }
 .pkspr.pokemon-dartrix:before,
@@ -735,14 +737,14 @@
 .pkspr.pokemon-deerling-autumn:before {
   background-position: -1240px -150px;
 }
-.pkspr.pokemon-deerling-summer:before {
-  background-position: 0px -180px;
-}
-.pkspr.pokemon-deerling-winter:before {
-  background-position: -40px -180px;
-}
 .pkspr.pokemon-deerling:before,
 .pkspr.dex-0585:before {
+  background-position: 0px -180px;
+}
+.pkspr.pokemon-deerling-summer:before {
+  background-position: -40px -180px;
+}
+.pkspr.pokemon-deerling-winter:before {
   background-position: -80px -180px;
 }
 .pkspr.pokemon-deino:before,
@@ -767,11 +769,11 @@
 .pkspr.pokemon-deoxys-defense:before {
   background-position: -320px -180px;
 }
-.pkspr.pokemon-deoxys-speed:before {
-  background-position: -360px -180px;
-}
 .pkspr.pokemon-deoxys:before,
 .pkspr.dex-0386:before {
+  background-position: -360px -180px;
+}
+.pkspr.pokemon-deoxys-speed:before {
   background-position: -400px -180px;
 }
 .pkspr.pokemon-dewgong:before,
@@ -1076,14 +1078,14 @@
 .pkspr.pokemon-flabebe-orange:before {
   background-position: -920px -240px;
 }
-.pkspr.pokemon-flabebe-white:before {
-  background-position: -960px -240px;
-}
-.pkspr.pokemon-flabebe-yellow:before {
-  background-position: -1000px -240px;
-}
 .pkspr.pokemon-flabebe:before,
 .pkspr.dex-0669:before {
+  background-position: -960px -240px;
+}
+.pkspr.pokemon-flabebe-white:before {
+  background-position: -1000px -240px;
+}
+.pkspr.pokemon-flabebe-yellow:before {
   background-position: -1040px -240px;
 }
 .pkspr.pokemon-flareon:before,
@@ -1111,14 +1113,14 @@
 .pkspr.pokemon-floette-orange:before {
   background-position: -40px -270px;
 }
-.pkspr.pokemon-floette-white:before {
-  background-position: -80px -270px;
-}
-.pkspr.pokemon-floette-yellow:before {
-  background-position: -120px -270px;
-}
 .pkspr.pokemon-floette:before,
 .pkspr.dex-0670:before {
+  background-position: -80px -270px;
+}
+.pkspr.pokemon-floette-white:before {
+  background-position: -120px -270px;
+}
+.pkspr.pokemon-floette-yellow:before {
   background-position: -160px -270px;
 }
 .pkspr.pokemon-florges-blue:before {
@@ -1127,14 +1129,14 @@
 .pkspr.pokemon-florges-orange:before {
   background-position: -240px -270px;
 }
-.pkspr.pokemon-florges-white:before {
-  background-position: -280px -270px;
-}
-.pkspr.pokemon-florges-yellow:before {
-  background-position: -320px -270px;
-}
 .pkspr.pokemon-florges:before,
 .pkspr.dex-0671:before {
+  background-position: -280px -270px;
+}
+.pkspr.pokemon-florges-white:before {
+  background-position: -320px -270px;
+}
+.pkspr.pokemon-florges-yellow:before {
   background-position: -360px -270px;
 }
 .pkspr.pokemon-flygon:before,
@@ -1197,11 +1199,11 @@
 .pkspr.pokemon-furfrou-pharaoh:before {
   background-position: -1040px -270px;
 }
-.pkspr.pokemon-furfrou-star:before {
-  background-position: -1080px -270px;
-}
 .pkspr.pokemon-furfrou:before,
 .pkspr.dex-0676:before {
+  background-position: -1080px -270px;
+}
+.pkspr.pokemon-furfrou-star:before {
   background-position: -1120px -270px;
 }
 .pkspr.pokemon-furret:before,
@@ -1261,14 +1263,14 @@
 .pkspr.pokemon-genesect-douse:before {
   background-position: -480px -300px;
 }
-.pkspr.pokemon-genesect-shock:before {
-  background-position: -520px -300px;
-}
-.pkspr.pokemon-genesect-standard:before {
-  background-position: -560px -300px;
-}
 .pkspr.pokemon-genesect:before,
 .pkspr.dex-0649:before {
+  background-position: -520px -300px;
+}
+.pkspr.pokemon-genesect-shock:before {
+  background-position: -560px -300px;
+}
+.pkspr.pokemon-genesect-standard:before {
   background-position: -600px -300px;
 }
 .pkspr.pokemon-gengar-mega:before {
@@ -1393,14 +1395,14 @@
 .pkspr.pokemon-gourgeist-large:before {
   background-position: -600px -330px;
 }
-.pkspr.pokemon-gourgeist-small:before {
-  background-position: -640px -330px;
-}
-.pkspr.pokemon-gourgeist-super:before {
-  background-position: -680px -330px;
-}
 .pkspr.pokemon-gourgeist:before,
 .pkspr.dex-0711:before {
+  background-position: -640px -330px;
+}
+.pkspr.pokemon-gourgeist-small:before {
+  background-position: -680px -330px;
+}
+.pkspr.pokemon-gourgeist-super:before {
   background-position: -720px -330px;
 }
 .pkspr.pokemon-granbull:before,
@@ -1432,11 +1434,11 @@
 .pkspr.dex-0388:before {
   background-position: -1040px -330px;
 }
-.pkspr.pokemon-groudon-primal:before {
-  background-position: -1080px -330px;
-}
 .pkspr.pokemon-groudon:before,
 .pkspr.dex-0383:before {
+  background-position: -1080px -330px;
+}
+.pkspr.pokemon-groudon-primal:before {
   background-position: -1120px -330px;
 }
 .pkspr.pokemon-grovyle:before,
@@ -1549,23 +1551,23 @@
 .pkspr.dex-0237:before {
   background-position: -960px -360px;
 }
-.pkspr.pokemon-ho-oh:before,
-.pkspr.dex-0250:before {
-  background-position: -1000px -360px;
-}
 .pkspr.pokemon-honchkrow:before,
 .pkspr.dex-0430:before {
-  background-position: -1040px -360px;
+  background-position: -1000px -360px;
 }
 .pkspr.pokemon-honedge:before,
 .pkspr.dex-0679:before {
-  background-position: -1080px -360px;
+  background-position: -1040px -360px;
 }
-.pkspr.pokemon-hoopa-unbound:before {
-  background-position: -1120px -360px;
+.pkspr.pokemon-ho-oh:before,
+.pkspr.dex-0250:before {
+  background-position: -1080px -360px;
 }
 .pkspr.pokemon-hoopa:before,
 .pkspr.dex-0720:before {
+  background-position: -1120px -360px;
+}
+.pkspr.pokemon-hoopa-unbound:before {
   background-position: -1160px -360px;
 }
 .pkspr.pokemon-hoothoot:before,
@@ -1694,11 +1696,11 @@
 .pkspr.dex-0352:before {
   background-position: -1160px -390px;
 }
-.pkspr.pokemon-keldeo-resolute:before {
-  background-position: -1200px -390px;
-}
 .pkspr.pokemon-keldeo:before,
 .pkspr.dex-0647:before {
+  background-position: -1200px -390px;
+}
+.pkspr.pokemon-keldeo-resolute:before {
   background-position: -1240px -390px;
 }
 .pkspr.pokemon-kingdra:before,
@@ -1721,12 +1723,12 @@
 .pkspr.dex-0707:before {
   background-position: -160px -420px;
 }
-.pkspr.pokemon-klink:before,
-.pkspr.dex-0599:before {
-  background-position: -200px -420px;
-}
 .pkspr.pokemon-klinklang:before,
 .pkspr.dex-0601:before {
+  background-position: -200px -420px;
+}
+.pkspr.pokemon-klink:before,
+.pkspr.dex-0599:before {
   background-position: -240px -420px;
 }
 .pkspr.pokemon-koffing:before,
@@ -1761,21 +1763,21 @@
 .pkspr.dex-0553:before {
   background-position: -560px -420px;
 }
-.pkspr.pokemon-kyogre-primal:before {
-  background-position: -600px -420px;
-}
 .pkspr.pokemon-kyogre:before,
 .pkspr.dex-0382:before {
+  background-position: -600px -420px;
+}
+.pkspr.pokemon-kyogre-primal:before {
   background-position: -640px -420px;
 }
 .pkspr.pokemon-kyurem-black:before {
   background-position: -680px -420px;
 }
-.pkspr.pokemon-kyurem-white:before {
-  background-position: -720px -420px;
-}
 .pkspr.pokemon-kyurem:before,
 .pkspr.dex-0646:before {
+  background-position: -720px -420px;
+}
+.pkspr.pokemon-kyurem-white:before {
   background-position: -760px -420px;
 }
 .pkspr.pokemon-lairon:before,
@@ -1786,11 +1788,11 @@
 .pkspr.dex-0608:before {
   background-position: -840px -420px;
 }
-.pkspr.pokemon-landorus-therian:before {
-  background-position: -880px -420px;
-}
 .pkspr.pokemon-landorus:before,
 .pkspr.dex-0645:before {
+  background-position: -880px -420px;
+}
+.pkspr.pokemon-landorus-therian:before {
   background-position: -920px -420px;
 }
 .pkspr.pokemon-lanturn:before,
@@ -2193,17 +2195,17 @@
 .pkspr.pokemon-minior-orange:before {
   background-position: 0px -540px;
 }
-.pkspr.pokemon-minior-red:before {
-  background-position: -40px -540px;
-}
-.pkspr.pokemon-minior-violet:before {
-  background-position: -80px -540px;
-}
-.pkspr.pokemon-minior-yellow:before {
-  background-position: -120px -540px;
-}
 .pkspr.pokemon-minior:before,
 .pkspr.dex-0774:before {
+  background-position: -40px -540px;
+}
+.pkspr.pokemon-minior-red:before {
+  background-position: -80px -540px;
+}
+.pkspr.pokemon-minior-violet:before {
+  background-position: -120px -540px;
+}
+.pkspr.pokemon-minior-yellow:before {
   background-position: -160px -540px;
 }
 .pkspr.pokemon-minun:before,
@@ -2287,11 +2289,11 @@
 .pkspr.pokemon-necrozma-dusk:before {
   background-position: -1000px -540px;
 }
-.pkspr.pokemon-necrozma-ultra:before {
-  background-position: -1040px -540px;
-}
 .pkspr.pokemon-necrozma:before,
 .pkspr.dex-0800:before {
+  background-position: -1040px -540px;
+}
+.pkspr.pokemon-necrozma-ultra:before {
   background-position: -1080px -540px;
 }
 .pkspr.pokemon-nidoking:before,
@@ -2388,14 +2390,14 @@
 .pkspr.pokemon-oricorio-pau:before {
   background-position: -760px -570px;
 }
-.pkspr.pokemon-oricorio-pom-pom:before {
-  background-position: -800px -570px;
-}
-.pkspr.pokemon-oricorio-sensu:before {
-  background-position: -840px -570px;
-}
 .pkspr.pokemon-oricorio:before,
 .pkspr.dex-0741:before {
+  background-position: -800px -570px;
+}
+.pkspr.pokemon-oricorio-pom-pom:before {
+  background-position: -840px -570px;
+}
+.pkspr.pokemon-oricorio-sensu:before {
   background-position: -880px -570px;
 }
 .pkspr.pokemon-oshawott:before,
@@ -2438,12 +2440,12 @@
 .pkspr.dex-0513:before {
   background-position: 0px -600px;
 }
-.pkspr.pokemon-paras:before,
-.pkspr.dex-0046:before {
-  background-position: -40px -600px;
-}
 .pkspr.pokemon-parasect:before,
 .pkspr.dex-0047:before {
+  background-position: -40px -600px;
+}
+.pkspr.pokemon-paras:before,
+.pkspr.dex-0046:before {
   background-position: -80px -600px;
 }
 .pkspr.pokemon-passimian:before,
@@ -2489,11 +2491,11 @@
 .pkspr.dex-0489:before {
   background-position: -520px -600px;
 }
-.pkspr.pokemon-pichu-spiky-eared:before {
-  background-position: -560px -600px;
-}
 .pkspr.pokemon-pichu:before,
 .pkspr.dex-0172:before {
+  background-position: -560px -600px;
+}
+.pkspr.pokemon-pichu-spiky-eared:before {
   background-position: -600px -600px;
 }
 .pkspr.pokemon-pidgeot-mega:before {
@@ -2546,20 +2548,20 @@
 .pkspr.pokemon-pikachu-phd:before {
   background-position: -1200px -600px;
 }
-.pkspr.pokemon-pikachu-pop-star:before {
-  background-position: -1240px -600px;
-}
-.pkspr.pokemon-pikachu-rock-star:before {
-  background-position: 0px -630px;
-}
-.pkspr.pokemon-pikachu-sinnoh-cap:before {
-  background-position: -40px -630px;
-}
-.pkspr.pokemon-pikachu-unova-cap:before {
-  background-position: -80px -630px;
-}
 .pkspr.pokemon-pikachu:before,
 .pkspr.dex-0025:before {
+  background-position: -1240px -600px;
+}
+.pkspr.pokemon-pikachu-pop-star:before {
+  background-position: 0px -630px;
+}
+.pkspr.pokemon-pikachu-rock-star:before {
+  background-position: -40px -630px;
+}
+.pkspr.pokemon-pikachu-sinnoh-cap:before {
+  background-position: -80px -630px;
+}
+.pkspr.pokemon-pikachu-unova-cap:before {
   background-position: -120px -630px;
 }
 .pkspr.pokemon-pikipek:before,
@@ -2621,16 +2623,16 @@
 .pkspr.dex-0728:before {
   background-position: -720px -630px;
 }
-.pkspr.pokemon-porygon-z:before,
-.pkspr.dex-0474:before {
+.pkspr.pokemon-porygon2:before,
+.pkspr.dex-0233:before {
   background-position: -760px -630px;
 }
 .pkspr.pokemon-porygon:before,
 .pkspr.dex-0137:before {
   background-position: -800px -630px;
 }
-.pkspr.pokemon-porygon2:before,
-.pkspr.dex-0233:before {
+.pkspr.pokemon-porygon-z:before,
+.pkspr.dex-0474:before {
   background-position: -840px -630px;
 }
 .pkspr.pokemon-primarina:before,
@@ -2656,14 +2658,14 @@
 .pkspr.pokemon-pumpkaboo-large:before {
   background-position: -1080px -630px;
 }
-.pkspr.pokemon-pumpkaboo-small:before {
-  background-position: -1120px -630px;
-}
-.pkspr.pokemon-pumpkaboo-super:before {
-  background-position: -1160px -630px;
-}
 .pkspr.pokemon-pumpkaboo:before,
 .pkspr.dex-0710:before {
+  background-position: -1120px -630px;
+}
+.pkspr.pokemon-pumpkaboo-small:before {
+  background-position: -1160px -630px;
+}
+.pkspr.pokemon-pumpkaboo-super:before {
   background-position: -1200px -630px;
 }
 .pkspr.pokemon-pupitar:before,
@@ -2909,22 +2911,22 @@
 .pkspr.dex-0707.right:before {
   background-position: -1160px -690px;
 }
-.pkspr.pokemon-klink.right:before,
-.pkspr.dex-0599.right:before {
-  background-position: -1200px -690px;
-}
 .pkspr.pokemon-klinklang.right:before,
 .pkspr.dex-0601.right:before {
+  background-position: -1200px -690px;
+}
+.pkspr.pokemon-klink.right:before,
+.pkspr.dex-0599.right:before {
   background-position: -1240px -690px;
 }
 .pkspr.pokemon-kyurem-black.right:before {
   background-position: 0px -720px;
 }
-.pkspr.pokemon-kyurem-white.right:before {
-  background-position: -40px -720px;
-}
 .pkspr.pokemon-kyurem.right:before,
 .pkspr.dex-0646.right:before {
+  background-position: -40px -720px;
+}
+.pkspr.pokemon-kyurem-white.right:before {
   background-position: -80px -720px;
 }
 .pkspr.pokemon-lilligant.right:before,
@@ -2959,17 +2961,17 @@
 .pkspr.pokemon-minior-orange.right:before {
   background-position: -440px -720px;
 }
-.pkspr.pokemon-minior-red.right:before {
-  background-position: -480px -720px;
-}
-.pkspr.pokemon-minior-violet.right:before {
-  background-position: -520px -720px;
-}
-.pkspr.pokemon-minior-yellow.right:before {
-  background-position: -560px -720px;
-}
 .pkspr.pokemon-minior.right:before,
 .pkspr.dex-0774.right:before {
+  background-position: -480px -720px;
+}
+.pkspr.pokemon-minior-red.right:before {
+  background-position: -520px -720px;
+}
+.pkspr.pokemon-minior-violet.right:before {
+  background-position: -560px -720px;
+}
+.pkspr.pokemon-minior-yellow.right:before {
   background-position: -600px -720px;
 }
 .pkspr.pokemon-necrozma-dawn.right:before {
@@ -2978,11 +2980,11 @@
 .pkspr.pokemon-necrozma-dusk.right:before {
   background-position: -680px -720px;
 }
-.pkspr.pokemon-necrozma-ultra.right:before {
-  background-position: -720px -720px;
-}
 .pkspr.pokemon-necrozma.right:before,
 .pkspr.dex-0800.right:before {
+  background-position: -720px -720px;
+}
+.pkspr.pokemon-necrozma-ultra.right:before {
   background-position: -760px -720px;
 }
 .pkspr.pokemon-pansear.right:before,
@@ -3193,11 +3195,11 @@
 .pkspr.pokemon-rotom-mow:before {
   background-position: -600px -780px;
 }
-.pkspr.pokemon-rotom-wash:before {
-  background-position: -640px -780px;
-}
 .pkspr.pokemon-rotom:before,
 .pkspr.dex-0479:before {
+  background-position: -640px -780px;
+}
+.pkspr.pokemon-rotom-wash:before {
   background-position: -680px -780px;
 }
 .pkspr.pokemon-rowlet:before,
@@ -3263,14 +3265,14 @@
 .pkspr.pokemon-sawsbuck-autumn:before {
   background-position: -80px -810px;
 }
-.pkspr.pokemon-sawsbuck-summer:before {
-  background-position: -120px -810px;
-}
-.pkspr.pokemon-sawsbuck-winter:before {
-  background-position: -160px -810px;
-}
 .pkspr.pokemon-sawsbuck:before,
 .pkspr.dex-0586:before {
+  background-position: -120px -810px;
+}
+.pkspr.pokemon-sawsbuck-summer:before {
+  background-position: -160px -810px;
+}
+.pkspr.pokemon-sawsbuck-winter:before {
   background-position: -200px -810px;
 }
 .pkspr.pokemon-scatterbug:before,
@@ -3358,11 +3360,11 @@
 .pkspr.dex-0319:before {
   background-position: -1080px -810px;
 }
-.pkspr.pokemon-shaymin-sky:before {
-  background-position: -1120px -810px;
-}
 .pkspr.pokemon-shaymin:before,
 .pkspr.dex-0492:before {
+  background-position: -1120px -810px;
+}
+.pkspr.pokemon-shaymin-sky:before {
   background-position: -1160px -810px;
 }
 .pkspr.pokemon-shedinja:before,
@@ -3460,23 +3462,23 @@
 .pkspr.pokemon-silvally-ice:before {
   background-position: -960px -840px;
 }
-.pkspr.pokemon-silvally-poison:before {
-  background-position: -1000px -840px;
-}
-.pkspr.pokemon-silvally-psychic:before {
-  background-position: -1040px -840px;
-}
-.pkspr.pokemon-silvally-rock:before {
-  background-position: -1080px -840px;
-}
-.pkspr.pokemon-silvally-steel:before {
-  background-position: -1120px -840px;
-}
-.pkspr.pokemon-silvally-water:before {
-  background-position: -1160px -840px;
-}
 .pkspr.pokemon-silvally:before,
 .pkspr.dex-0773:before {
+  background-position: -1000px -840px;
+}
+.pkspr.pokemon-silvally-poison:before {
+  background-position: -1040px -840px;
+}
+.pkspr.pokemon-silvally-psychic:before {
+  background-position: -1080px -840px;
+}
+.pkspr.pokemon-silvally-rock:before {
+  background-position: -1120px -840px;
+}
+.pkspr.pokemon-silvally-steel:before {
+  background-position: -1160px -840px;
+}
+.pkspr.pokemon-silvally-water:before {
   background-position: -1200px -840px;
 }
 .pkspr.pokemon-simipour:before,
@@ -3812,11 +3814,11 @@
 .pkspr.dex-0538:before {
   background-position: -720px -930px;
 }
-.pkspr.pokemon-thundurus-therian:before {
-  background-position: -760px -930px;
-}
 .pkspr.pokemon-thundurus:before,
 .pkspr.dex-0642:before {
+  background-position: -760px -930px;
+}
+.pkspr.pokemon-thundurus-therian:before {
   background-position: -800px -930px;
 }
 .pkspr.pokemon-timburr:before,
@@ -3851,11 +3853,11 @@
 .pkspr.dex-0324:before {
   background-position: -1120px -930px;
 }
-.pkspr.pokemon-tornadus-therian:before {
-  background-position: -1160px -930px;
-}
 .pkspr.pokemon-tornadus:before,
 .pkspr.dex-0641:before {
+  background-position: -1160px -930px;
+}
+.pkspr.pokemon-tornadus-therian:before {
   background-position: -1200px -930px;
 }
 .pkspr.pokemon-torracat:before,
@@ -4010,44 +4012,44 @@
 .pkspr.pokemon-unown-o:before {
   background-position: -320px -990px;
 }
-.pkspr.pokemon-unown-p:before {
-  background-position: -360px -990px;
-}
-.pkspr.pokemon-unown-q:before {
-  background-position: -400px -990px;
-}
-.pkspr.pokemon-unown-question:before {
-  background-position: -440px -990px;
-}
-.pkspr.pokemon-unown-r:before {
-  background-position: -480px -990px;
-}
-.pkspr.pokemon-unown-s:before {
-  background-position: -520px -990px;
-}
-.pkspr.pokemon-unown-t:before {
-  background-position: -560px -990px;
-}
-.pkspr.pokemon-unown-u:before {
-  background-position: -600px -990px;
-}
-.pkspr.pokemon-unown-v:before {
-  background-position: -640px -990px;
-}
-.pkspr.pokemon-unown-w:before {
-  background-position: -680px -990px;
-}
-.pkspr.pokemon-unown-x:before {
-  background-position: -720px -990px;
-}
-.pkspr.pokemon-unown-y:before {
-  background-position: -760px -990px;
-}
-.pkspr.pokemon-unown-z:before {
-  background-position: -800px -990px;
-}
 .pkspr.pokemon-unown:before,
 .pkspr.dex-0201:before {
+  background-position: -360px -990px;
+}
+.pkspr.pokemon-unown-p:before {
+  background-position: -400px -990px;
+}
+.pkspr.pokemon-unown-q:before {
+  background-position: -440px -990px;
+}
+.pkspr.pokemon-unown-question:before {
+  background-position: -480px -990px;
+}
+.pkspr.pokemon-unown-r:before {
+  background-position: -520px -990px;
+}
+.pkspr.pokemon-unown-s:before {
+  background-position: -560px -990px;
+}
+.pkspr.pokemon-unown-t:before {
+  background-position: -600px -990px;
+}
+.pkspr.pokemon-unown-u:before {
+  background-position: -640px -990px;
+}
+.pkspr.pokemon-unown-v:before {
+  background-position: -680px -990px;
+}
+.pkspr.pokemon-unown-w:before {
+  background-position: -720px -990px;
+}
+.pkspr.pokemon-unown-x:before {
+  background-position: -760px -990px;
+}
+.pkspr.pokemon-unown-y:before {
+  background-position: -800px -990px;
+}
+.pkspr.pokemon-unown-z:before {
   background-position: -840px -990px;
 }
 .pkspr.pokemon-ursaring:before,
@@ -4161,29 +4163,29 @@
 .pkspr.pokemon-vivillon-ocean:before {
   background-position: -800px -1020px;
 }
-.pkspr.pokemon-vivillon-poke-ball:before {
-  background-position: -840px -1020px;
-}
-.pkspr.pokemon-vivillon-polar:before {
-  background-position: -880px -1020px;
-}
-.pkspr.pokemon-vivillon-river:before {
-  background-position: -920px -1020px;
-}
-.pkspr.pokemon-vivillon-sandstorm:before {
-  background-position: -960px -1020px;
-}
-.pkspr.pokemon-vivillon-savanna:before {
-  background-position: -1000px -1020px;
-}
-.pkspr.pokemon-vivillon-sun:before {
-  background-position: -1040px -1020px;
-}
-.pkspr.pokemon-vivillon-tundra:before {
-  background-position: -1080px -1020px;
-}
 .pkspr.pokemon-vivillon:before,
 .pkspr.dex-0666:before {
+  background-position: -840px -1020px;
+}
+.pkspr.pokemon-vivillon-poke-ball:before {
+  background-position: -880px -1020px;
+}
+.pkspr.pokemon-vivillon-polar:before {
+  background-position: -920px -1020px;
+}
+.pkspr.pokemon-vivillon-river:before {
+  background-position: -960px -1020px;
+}
+.pkspr.pokemon-vivillon-sandstorm:before {
+  background-position: -1000px -1020px;
+}
+.pkspr.pokemon-vivillon-savanna:before {
+  background-position: -1040px -1020px;
+}
+.pkspr.pokemon-vivillon-sun:before {
+  background-position: -1080px -1020px;
+}
+.pkspr.pokemon-vivillon-tundra:before {
   background-position: -1120px -1020px;
 }
 .pkspr.pokemon-volbeat:before,
@@ -4277,11 +4279,11 @@
 .pkspr.dex-0278:before {
   background-position: -760px -1050px;
 }
-.pkspr.pokemon-wishiwashi-school:before {
-  background-position: -800px -1050px;
-}
 .pkspr.pokemon-wishiwashi:before,
 .pkspr.dex-0746:before {
+  background-position: -800px -1050px;
+}
+.pkspr.pokemon-wishiwashi-school:before {
   background-position: -840px -1050px;
 }
 .pkspr.pokemon-wobbuffet:before,
@@ -4296,14 +4298,14 @@
 .pkspr.dex-0194:before {
   background-position: -960px -1050px;
 }
-.pkspr.pokemon-wormadam-sandy:before {
-  background-position: -1000px -1050px;
-}
-.pkspr.pokemon-wormadam-trash:before {
-  background-position: -1040px -1050px;
-}
 .pkspr.pokemon-wormadam:before,
 .pkspr.dex-0413:before {
+  background-position: -1000px -1050px;
+}
+.pkspr.pokemon-wormadam-sandy:before {
+  background-position: -1040px -1050px;
+}
+.pkspr.pokemon-wormadam-trash:before {
   background-position: -1080px -1050px;
 }
 .pkspr.pokemon-wurmple:before,
@@ -4535,23 +4537,23 @@
 .pkspr.pokemon-arceus-ice.shiny:before {
   background-position: -1040px -1110px;
 }
-.pkspr.pokemon-arceus-poison.shiny:before {
-  background-position: -1080px -1110px;
-}
-.pkspr.pokemon-arceus-psychic.shiny:before {
-  background-position: -1120px -1110px;
-}
-.pkspr.pokemon-arceus-rock.shiny:before {
-  background-position: -1160px -1110px;
-}
-.pkspr.pokemon-arceus-steel.shiny:before {
-  background-position: -1200px -1110px;
-}
-.pkspr.pokemon-arceus-water.shiny:before {
-  background-position: -1240px -1110px;
-}
 .pkspr.pokemon-arceus.shiny:before,
 .pkspr.dex-0493.shiny:before {
+  background-position: -1080px -1110px;
+}
+.pkspr.pokemon-arceus-poison.shiny:before {
+  background-position: -1120px -1110px;
+}
+.pkspr.pokemon-arceus-psychic.shiny:before {
+  background-position: -1160px -1110px;
+}
+.pkspr.pokemon-arceus-rock.shiny:before {
+  background-position: -1200px -1110px;
+}
+.pkspr.pokemon-arceus-steel.shiny:before {
+  background-position: -1240px -1110px;
+}
+.pkspr.pokemon-arceus-water.shiny:before {
   background-position: 0px -1140px;
 }
 .pkspr.pokemon-archen.shiny:before,
@@ -4796,14 +4798,14 @@
 .pkspr.dex-0659.shiny:before {
   background-position: -1200px -1170px;
 }
-.pkspr.pokemon-burmy-sandy.shiny:before {
-  background-position: -1240px -1170px;
-}
-.pkspr.pokemon-burmy-trash.shiny:before {
-  background-position: 0px -1200px;
-}
 .pkspr.pokemon-burmy.shiny:before,
 .pkspr.dex-0412.shiny:before {
+  background-position: -1240px -1170px;
+}
+.pkspr.pokemon-burmy-sandy.shiny:before {
+  background-position: 0px -1200px;
+}
+.pkspr.pokemon-burmy-trash.shiny:before {
   background-position: -40px -1200px;
 }
 .pkspr.pokemon-butterfree.shiny:before,
@@ -4849,17 +4851,17 @@
 .pkspr.dex-0268.shiny:before {
   background-position: -480px -1200px;
 }
-.pkspr.pokemon-castform-rainy.shiny:before {
-  background-position: -520px -1200px;
-}
-.pkspr.pokemon-castform-snowy.shiny:before {
-  background-position: -560px -1200px;
-}
-.pkspr.pokemon-castform-sunny.shiny:before {
-  background-position: -600px -1200px;
-}
 .pkspr.pokemon-castform.shiny:before,
 .pkspr.dex-0351.shiny:before {
+  background-position: -520px -1200px;
+}
+.pkspr.pokemon-castform-rainy.shiny:before {
+  background-position: -560px -1200px;
+}
+.pkspr.pokemon-castform-snowy.shiny:before {
+  background-position: -600px -1200px;
+}
+.pkspr.pokemon-castform-sunny.shiny:before {
   background-position: -640px -1200px;
 }
 .pkspr.pokemon-caterpie.shiny:before,
@@ -4908,11 +4910,11 @@
 .pkspr.dex-0441.shiny:before {
   background-position: -1120px -1200px;
 }
-.pkspr.pokemon-cherrim-sunshine.shiny:before {
-  background-position: -1160px -1200px;
-}
 .pkspr.pokemon-cherrim.shiny:before,
 .pkspr.dex-0421.shiny:before {
+  background-position: -1160px -1200px;
+}
+.pkspr.pokemon-cherrim-sunshine.shiny:before {
   background-position: -1200px -1200px;
 }
 .pkspr.pokemon-cherubi.shiny:before,
@@ -5091,11 +5093,11 @@
 .pkspr.dex-0491.shiny:before {
   background-position: -400px -1260px;
 }
-.pkspr.pokemon-darmanitan-zen.shiny:before {
-  background-position: -440px -1260px;
-}
 .pkspr.pokemon-darmanitan.shiny:before,
 .pkspr.dex-0555.shiny:before {
+  background-position: -440px -1260px;
+}
+.pkspr.pokemon-darmanitan-zen.shiny:before {
   background-position: -480px -1260px;
 }
 .pkspr.pokemon-dartrix.shiny:before,
@@ -5117,14 +5119,14 @@
 .pkspr.pokemon-deerling-autumn.shiny:before {
   background-position: -680px -1260px;
 }
-.pkspr.pokemon-deerling-summer.shiny:before {
-  background-position: -720px -1260px;
-}
-.pkspr.pokemon-deerling-winter.shiny:before {
-  background-position: -760px -1260px;
-}
 .pkspr.pokemon-deerling.shiny:before,
 .pkspr.dex-0585.shiny:before {
+  background-position: -720px -1260px;
+}
+.pkspr.pokemon-deerling-summer.shiny:before {
+  background-position: -760px -1260px;
+}
+.pkspr.pokemon-deerling-winter.shiny:before {
   background-position: -800px -1260px;
 }
 .pkspr.pokemon-deino.shiny:before,
@@ -5149,11 +5151,11 @@
 .pkspr.pokemon-deoxys-defense.shiny:before {
   background-position: -1040px -1260px;
 }
-.pkspr.pokemon-deoxys-speed.shiny:before {
-  background-position: -1080px -1260px;
-}
 .pkspr.pokemon-deoxys.shiny:before,
 .pkspr.dex-0386.shiny:before {
+  background-position: -1080px -1260px;
+}
+.pkspr.pokemon-deoxys-speed.shiny:before {
   background-position: -1120px -1260px;
 }
 .pkspr.pokemon-dewgong.shiny:before,
@@ -5458,14 +5460,14 @@
 .pkspr.pokemon-flabebe-orange.shiny:before {
   background-position: -360px -1350px;
 }
-.pkspr.pokemon-flabebe-white.shiny:before {
-  background-position: -400px -1350px;
-}
-.pkspr.pokemon-flabebe-yellow.shiny:before {
-  background-position: -440px -1350px;
-}
 .pkspr.pokemon-flabebe.shiny:before,
 .pkspr.dex-0669.shiny:before {
+  background-position: -400px -1350px;
+}
+.pkspr.pokemon-flabebe-white.shiny:before {
+  background-position: -440px -1350px;
+}
+.pkspr.pokemon-flabebe-yellow.shiny:before {
   background-position: -480px -1350px;
 }
 .pkspr.pokemon-flareon.shiny:before,
@@ -5493,14 +5495,14 @@
 .pkspr.pokemon-floette-orange.shiny:before {
   background-position: -760px -1350px;
 }
-.pkspr.pokemon-floette-white.shiny:before {
-  background-position: -800px -1350px;
-}
-.pkspr.pokemon-floette-yellow.shiny:before {
-  background-position: -840px -1350px;
-}
 .pkspr.pokemon-floette.shiny:before,
 .pkspr.dex-0670.shiny:before {
+  background-position: -800px -1350px;
+}
+.pkspr.pokemon-floette-white.shiny:before {
+  background-position: -840px -1350px;
+}
+.pkspr.pokemon-floette-yellow.shiny:before {
   background-position: -880px -1350px;
 }
 .pkspr.pokemon-florges-blue.shiny:before {
@@ -5509,14 +5511,14 @@
 .pkspr.pokemon-florges-orange.shiny:before {
   background-position: -960px -1350px;
 }
-.pkspr.pokemon-florges-white.shiny:before {
-  background-position: -1000px -1350px;
-}
-.pkspr.pokemon-florges-yellow.shiny:before {
-  background-position: -1040px -1350px;
-}
 .pkspr.pokemon-florges.shiny:before,
 .pkspr.dex-0671.shiny:before {
+  background-position: -1000px -1350px;
+}
+.pkspr.pokemon-florges-white.shiny:before {
+  background-position: -1040px -1350px;
+}
+.pkspr.pokemon-florges-yellow.shiny:before {
   background-position: -1080px -1350px;
 }
 .pkspr.pokemon-flygon.shiny:before,
@@ -5579,11 +5581,11 @@
 .pkspr.pokemon-furfrou-pharaoh.shiny:before {
   background-position: -480px -1380px;
 }
-.pkspr.pokemon-furfrou-star.shiny:before {
-  background-position: -520px -1380px;
-}
 .pkspr.pokemon-furfrou.shiny:before,
 .pkspr.dex-0676.shiny:before {
+  background-position: -520px -1380px;
+}
+.pkspr.pokemon-furfrou-star.shiny:before {
   background-position: -560px -1380px;
 }
 .pkspr.pokemon-furret.shiny:before,
@@ -5643,14 +5645,14 @@
 .pkspr.pokemon-genesect-douse.shiny:before {
   background-position: -1200px -1380px;
 }
-.pkspr.pokemon-genesect-shock.shiny:before {
-  background-position: -1240px -1380px;
-}
-.pkspr.pokemon-genesect-standard.shiny:before {
-  background-position: 0px -1410px;
-}
 .pkspr.pokemon-genesect.shiny:before,
 .pkspr.dex-0649.shiny:before {
+  background-position: -1240px -1380px;
+}
+.pkspr.pokemon-genesect-shock.shiny:before {
+  background-position: 0px -1410px;
+}
+.pkspr.pokemon-genesect-standard.shiny:before {
   background-position: -40px -1410px;
 }
 .pkspr.pokemon-gengar-mega.shiny:before {
@@ -5775,14 +5777,14 @@
 .pkspr.pokemon-gourgeist-large.shiny:before {
   background-position: -40px -1440px;
 }
-.pkspr.pokemon-gourgeist-small.shiny:before {
-  background-position: -80px -1440px;
-}
-.pkspr.pokemon-gourgeist-super.shiny:before {
-  background-position: -120px -1440px;
-}
 .pkspr.pokemon-gourgeist.shiny:before,
 .pkspr.dex-0711.shiny:before {
+  background-position: -80px -1440px;
+}
+.pkspr.pokemon-gourgeist-small.shiny:before {
+  background-position: -120px -1440px;
+}
+.pkspr.pokemon-gourgeist-super.shiny:before {
   background-position: -160px -1440px;
 }
 .pkspr.pokemon-granbull.shiny:before,
@@ -5814,11 +5816,11 @@
 .pkspr.dex-0388.shiny:before {
   background-position: -480px -1440px;
 }
-.pkspr.pokemon-groudon-primal.shiny:before {
-  background-position: -520px -1440px;
-}
 .pkspr.pokemon-groudon.shiny:before,
 .pkspr.dex-0383.shiny:before {
+  background-position: -520px -1440px;
+}
+.pkspr.pokemon-groudon-primal.shiny:before {
   background-position: -560px -1440px;
 }
 .pkspr.pokemon-grovyle.shiny:before,
@@ -5931,23 +5933,23 @@
 .pkspr.dex-0237.shiny:before {
   background-position: -400px -1470px;
 }
-.pkspr.pokemon-ho-oh.shiny:before,
-.pkspr.dex-0250.shiny:before {
-  background-position: -440px -1470px;
-}
 .pkspr.pokemon-honchkrow.shiny:before,
 .pkspr.dex-0430.shiny:before {
-  background-position: -480px -1470px;
+  background-position: -440px -1470px;
 }
 .pkspr.pokemon-honedge.shiny:before,
 .pkspr.dex-0679.shiny:before {
-  background-position: -520px -1470px;
+  background-position: -480px -1470px;
 }
-.pkspr.pokemon-hoopa-unbound.shiny:before {
-  background-position: -560px -1470px;
+.pkspr.pokemon-ho-oh.shiny:before,
+.pkspr.dex-0250.shiny:before {
+  background-position: -520px -1470px;
 }
 .pkspr.pokemon-hoopa.shiny:before,
 .pkspr.dex-0720.shiny:before {
+  background-position: -560px -1470px;
+}
+.pkspr.pokemon-hoopa-unbound.shiny:before {
   background-position: -600px -1470px;
 }
 .pkspr.pokemon-hoothoot.shiny:before,
@@ -6076,11 +6078,11 @@
 .pkspr.dex-0352.shiny:before {
   background-position: -600px -1500px;
 }
-.pkspr.pokemon-keldeo-resolute.shiny:before {
-  background-position: -640px -1500px;
-}
 .pkspr.pokemon-keldeo.shiny:before,
 .pkspr.dex-0647.shiny:before {
+  background-position: -640px -1500px;
+}
+.pkspr.pokemon-keldeo-resolute.shiny:before {
   background-position: -680px -1500px;
 }
 .pkspr.pokemon-kingdra.shiny:before,
@@ -6103,12 +6105,12 @@
 .pkspr.dex-0707.shiny:before {
   background-position: -880px -1500px;
 }
-.pkspr.pokemon-klink.shiny:before,
-.pkspr.dex-0599.shiny:before {
-  background-position: -920px -1500px;
-}
 .pkspr.pokemon-klinklang.shiny:before,
 .pkspr.dex-0601.shiny:before {
+  background-position: -920px -1500px;
+}
+.pkspr.pokemon-klink.shiny:before,
+.pkspr.dex-0599.shiny:before {
   background-position: -960px -1500px;
 }
 .pkspr.pokemon-koffing.shiny:before,
@@ -6143,21 +6145,21 @@
 .pkspr.dex-0553.shiny:before {
   background-position: 0px -1530px;
 }
-.pkspr.pokemon-kyogre-primal.shiny:before {
-  background-position: -40px -1530px;
-}
 .pkspr.pokemon-kyogre.shiny:before,
 .pkspr.dex-0382.shiny:before {
+  background-position: -40px -1530px;
+}
+.pkspr.pokemon-kyogre-primal.shiny:before {
   background-position: -80px -1530px;
 }
 .pkspr.pokemon-kyurem-black.shiny:before {
   background-position: -120px -1530px;
 }
-.pkspr.pokemon-kyurem-white.shiny:before {
-  background-position: -160px -1530px;
-}
 .pkspr.pokemon-kyurem.shiny:before,
 .pkspr.dex-0646.shiny:before {
+  background-position: -160px -1530px;
+}
+.pkspr.pokemon-kyurem-white.shiny:before {
   background-position: -200px -1530px;
 }
 .pkspr.pokemon-lairon.shiny:before,
@@ -6168,11 +6170,11 @@
 .pkspr.dex-0608.shiny:before {
   background-position: -280px -1530px;
 }
-.pkspr.pokemon-landorus-therian.shiny:before {
-  background-position: -320px -1530px;
-}
 .pkspr.pokemon-landorus.shiny:before,
 .pkspr.dex-0645.shiny:before {
+  background-position: -320px -1530px;
+}
+.pkspr.pokemon-landorus-therian.shiny:before {
   background-position: -360px -1530px;
 }
 .pkspr.pokemon-lanturn.shiny:before,
@@ -6575,17 +6577,17 @@
 .pkspr.pokemon-minior-orange.shiny:before {
   background-position: -720px -1620px;
 }
-.pkspr.pokemon-minior-red.shiny:before {
-  background-position: -760px -1620px;
-}
-.pkspr.pokemon-minior-violet.shiny:before {
-  background-position: -800px -1620px;
-}
-.pkspr.pokemon-minior-yellow.shiny:before {
-  background-position: -840px -1620px;
-}
 .pkspr.pokemon-minior.shiny:before,
 .pkspr.dex-0774.shiny:before {
+  background-position: -760px -1620px;
+}
+.pkspr.pokemon-minior-red.shiny:before {
+  background-position: -800px -1620px;
+}
+.pkspr.pokemon-minior-violet.shiny:before {
+  background-position: -840px -1620px;
+}
+.pkspr.pokemon-minior-yellow.shiny:before {
   background-position: -880px -1620px;
 }
 .pkspr.pokemon-minun.shiny:before,
@@ -6669,11 +6671,11 @@
 .pkspr.pokemon-necrozma-dusk.shiny:before {
   background-position: -440px -1650px;
 }
-.pkspr.pokemon-necrozma-ultra.shiny:before {
-  background-position: -480px -1650px;
-}
 .pkspr.pokemon-necrozma.shiny:before,
 .pkspr.dex-0800.shiny:before {
+  background-position: -480px -1650px;
+}
+.pkspr.pokemon-necrozma-ultra.shiny:before {
   background-position: -520px -1650px;
 }
 .pkspr.pokemon-nidoking.shiny:before,
@@ -6770,14 +6772,14 @@
 .pkspr.pokemon-oricorio-pau.shiny:before {
   background-position: -200px -1680px;
 }
-.pkspr.pokemon-oricorio-pom-pom.shiny:before {
-  background-position: -240px -1680px;
-}
-.pkspr.pokemon-oricorio-sensu.shiny:before {
-  background-position: -280px -1680px;
-}
 .pkspr.pokemon-oricorio.shiny:before,
 .pkspr.dex-0741.shiny:before {
+  background-position: -240px -1680px;
+}
+.pkspr.pokemon-oricorio-pom-pom.shiny:before {
+  background-position: -280px -1680px;
+}
+.pkspr.pokemon-oricorio-sensu.shiny:before {
   background-position: -320px -1680px;
 }
 .pkspr.pokemon-oshawott.shiny:before,
@@ -6820,12 +6822,12 @@
 .pkspr.dex-0513.shiny:before {
   background-position: -720px -1680px;
 }
-.pkspr.pokemon-paras.shiny:before,
-.pkspr.dex-0046.shiny:before {
-  background-position: -760px -1680px;
-}
 .pkspr.pokemon-parasect.shiny:before,
 .pkspr.dex-0047.shiny:before {
+  background-position: -760px -1680px;
+}
+.pkspr.pokemon-paras.shiny:before,
+.pkspr.dex-0046.shiny:before {
   background-position: -800px -1680px;
 }
 .pkspr.pokemon-passimian.shiny:before,
@@ -6871,11 +6873,11 @@
 .pkspr.dex-0489.shiny:before {
   background-position: -1240px -1680px;
 }
-.pkspr.pokemon-pichu-spiky-eared.shiny:before {
-  background-position: 0px -1710px;
-}
 .pkspr.pokemon-pichu.shiny:before,
 .pkspr.dex-0172.shiny:before {
+  background-position: 0px -1710px;
+}
+.pkspr.pokemon-pichu-spiky-eared.shiny:before {
   background-position: -40px -1710px;
 }
 .pkspr.pokemon-pidgeot-mega.shiny:before {
@@ -6928,20 +6930,20 @@
 .pkspr.pokemon-pikachu-phd.shiny:before {
   background-position: -640px -1710px;
 }
-.pkspr.pokemon-pikachu-pop-star.shiny:before {
-  background-position: -680px -1710px;
-}
-.pkspr.pokemon-pikachu-rock-star.shiny:before {
-  background-position: -720px -1710px;
-}
-.pkspr.pokemon-pikachu-sinnoh-cap.shiny:before {
-  background-position: -760px -1710px;
-}
-.pkspr.pokemon-pikachu-unova-cap.shiny:before {
-  background-position: -800px -1710px;
-}
 .pkspr.pokemon-pikachu.shiny:before,
 .pkspr.dex-0025.shiny:before {
+  background-position: -680px -1710px;
+}
+.pkspr.pokemon-pikachu-pop-star.shiny:before {
+  background-position: -720px -1710px;
+}
+.pkspr.pokemon-pikachu-rock-star.shiny:before {
+  background-position: -760px -1710px;
+}
+.pkspr.pokemon-pikachu-sinnoh-cap.shiny:before {
+  background-position: -800px -1710px;
+}
+.pkspr.pokemon-pikachu-unova-cap.shiny:before {
   background-position: -840px -1710px;
 }
 .pkspr.pokemon-pikipek.shiny:before,
@@ -7003,16 +7005,16 @@
 .pkspr.dex-0728.shiny:before {
   background-position: -160px -1740px;
 }
-.pkspr.pokemon-porygon-z.shiny:before,
-.pkspr.dex-0474.shiny:before {
+.pkspr.pokemon-porygon2.shiny:before,
+.pkspr.dex-0233.shiny:before {
   background-position: -200px -1740px;
 }
 .pkspr.pokemon-porygon.shiny:before,
 .pkspr.dex-0137.shiny:before {
   background-position: -240px -1740px;
 }
-.pkspr.pokemon-porygon2.shiny:before,
-.pkspr.dex-0233.shiny:before {
+.pkspr.pokemon-porygon-z.shiny:before,
+.pkspr.dex-0474.shiny:before {
   background-position: -280px -1740px;
 }
 .pkspr.pokemon-primarina.shiny:before,
@@ -7038,14 +7040,14 @@
 .pkspr.pokemon-pumpkaboo-large.shiny:before {
   background-position: -520px -1740px;
 }
-.pkspr.pokemon-pumpkaboo-small.shiny:before {
-  background-position: -560px -1740px;
-}
-.pkspr.pokemon-pumpkaboo-super.shiny:before {
-  background-position: -600px -1740px;
-}
 .pkspr.pokemon-pumpkaboo.shiny:before,
 .pkspr.dex-0710.shiny:before {
+  background-position: -560px -1740px;
+}
+.pkspr.pokemon-pumpkaboo-small.shiny:before {
+  background-position: -600px -1740px;
+}
+.pkspr.pokemon-pumpkaboo-super.shiny:before {
   background-position: -640px -1740px;
 }
 .pkspr.pokemon-pupitar.shiny:before,
@@ -7291,22 +7293,22 @@
 .pkspr.dex-0707.shiny.right:before {
   background-position: -600px -1800px;
 }
-.pkspr.pokemon-klink.shiny.right:before,
-.pkspr.dex-0599.shiny.right:before {
-  background-position: -640px -1800px;
-}
 .pkspr.pokemon-klinklang.shiny.right:before,
 .pkspr.dex-0601.shiny.right:before {
+  background-position: -640px -1800px;
+}
+.pkspr.pokemon-klink.shiny.right:before,
+.pkspr.dex-0599.shiny.right:before {
   background-position: -680px -1800px;
 }
 .pkspr.pokemon-kyurem-black.shiny.right:before {
   background-position: -720px -1800px;
 }
-.pkspr.pokemon-kyurem-white.shiny.right:before {
-  background-position: -760px -1800px;
-}
 .pkspr.pokemon-kyurem.shiny.right:before,
 .pkspr.dex-0646.shiny.right:before {
+  background-position: -760px -1800px;
+}
+.pkspr.pokemon-kyurem-white.shiny.right:before {
   background-position: -800px -1800px;
 }
 .pkspr.pokemon-lilligant.shiny.right:before,
@@ -7341,17 +7343,17 @@
 .pkspr.pokemon-minior-orange.shiny.right:before {
   background-position: -1160px -1800px;
 }
-.pkspr.pokemon-minior-red.shiny.right:before {
-  background-position: -1200px -1800px;
-}
-.pkspr.pokemon-minior-violet.shiny.right:before {
-  background-position: -1240px -1800px;
-}
-.pkspr.pokemon-minior-yellow.shiny.right:before {
-  background-position: 0px -1830px;
-}
 .pkspr.pokemon-minior.shiny.right:before,
 .pkspr.dex-0774.shiny.right:before {
+  background-position: -1200px -1800px;
+}
+.pkspr.pokemon-minior-red.shiny.right:before {
+  background-position: -1240px -1800px;
+}
+.pkspr.pokemon-minior-violet.shiny.right:before {
+  background-position: 0px -1830px;
+}
+.pkspr.pokemon-minior-yellow.shiny.right:before {
   background-position: -40px -1830px;
 }
 .pkspr.pokemon-necrozma-dawn.shiny.right:before {
@@ -7360,11 +7362,11 @@
 .pkspr.pokemon-necrozma-dusk.shiny.right:before {
   background-position: -120px -1830px;
 }
-.pkspr.pokemon-necrozma-ultra.shiny.right:before {
-  background-position: -160px -1830px;
-}
 .pkspr.pokemon-necrozma.shiny.right:before,
 .pkspr.dex-0800.shiny.right:before {
+  background-position: -160px -1830px;
+}
+.pkspr.pokemon-necrozma-ultra.shiny.right:before {
   background-position: -200px -1830px;
 }
 .pkspr.pokemon-pansear.shiny.right:before,
@@ -7575,11 +7577,11 @@
 .pkspr.pokemon-rotom-mow.shiny:before {
   background-position: -40px -1890px;
 }
-.pkspr.pokemon-rotom-wash.shiny:before {
-  background-position: -80px -1890px;
-}
 .pkspr.pokemon-rotom.shiny:before,
 .pkspr.dex-0479.shiny:before {
+  background-position: -80px -1890px;
+}
+.pkspr.pokemon-rotom-wash.shiny:before {
   background-position: -120px -1890px;
 }
 .pkspr.pokemon-rowlet.shiny:before,
@@ -7645,14 +7647,14 @@
 .pkspr.pokemon-sawsbuck-autumn.shiny:before {
   background-position: -800px -1890px;
 }
-.pkspr.pokemon-sawsbuck-summer.shiny:before {
-  background-position: -840px -1890px;
-}
-.pkspr.pokemon-sawsbuck-winter.shiny:before {
-  background-position: -880px -1890px;
-}
 .pkspr.pokemon-sawsbuck.shiny:before,
 .pkspr.dex-0586.shiny:before {
+  background-position: -840px -1890px;
+}
+.pkspr.pokemon-sawsbuck-summer.shiny:before {
+  background-position: -880px -1890px;
+}
+.pkspr.pokemon-sawsbuck-winter.shiny:before {
   background-position: -920px -1890px;
 }
 .pkspr.pokemon-scatterbug.shiny:before,
@@ -7740,11 +7742,11 @@
 .pkspr.dex-0319.shiny:before {
   background-position: -520px -1920px;
 }
-.pkspr.pokemon-shaymin-sky.shiny:before {
-  background-position: -560px -1920px;
-}
 .pkspr.pokemon-shaymin.shiny:before,
 .pkspr.dex-0492.shiny:before {
+  background-position: -560px -1920px;
+}
+.pkspr.pokemon-shaymin-sky.shiny:before {
   background-position: -600px -1920px;
 }
 .pkspr.pokemon-shedinja.shiny:before,
@@ -7842,23 +7844,23 @@
 .pkspr.pokemon-silvally-ice.shiny:before {
   background-position: -400px -1950px;
 }
-.pkspr.pokemon-silvally-poison.shiny:before {
-  background-position: -440px -1950px;
-}
-.pkspr.pokemon-silvally-psychic.shiny:before {
-  background-position: -480px -1950px;
-}
-.pkspr.pokemon-silvally-rock.shiny:before {
-  background-position: -520px -1950px;
-}
-.pkspr.pokemon-silvally-steel.shiny:before {
-  background-position: -560px -1950px;
-}
-.pkspr.pokemon-silvally-water.shiny:before {
-  background-position: -600px -1950px;
-}
 .pkspr.pokemon-silvally.shiny:before,
 .pkspr.dex-0773.shiny:before {
+  background-position: -440px -1950px;
+}
+.pkspr.pokemon-silvally-poison.shiny:before {
+  background-position: -480px -1950px;
+}
+.pkspr.pokemon-silvally-psychic.shiny:before {
+  background-position: -520px -1950px;
+}
+.pkspr.pokemon-silvally-rock.shiny:before {
+  background-position: -560px -1950px;
+}
+.pkspr.pokemon-silvally-steel.shiny:before {
+  background-position: -600px -1950px;
+}
+.pkspr.pokemon-silvally-water.shiny:before {
   background-position: -640px -1950px;
 }
 .pkspr.pokemon-simipour.shiny:before,
@@ -8194,11 +8196,11 @@
 .pkspr.dex-0538.shiny:before {
   background-position: -160px -2040px;
 }
-.pkspr.pokemon-thundurus-therian.shiny:before {
-  background-position: -200px -2040px;
-}
 .pkspr.pokemon-thundurus.shiny:before,
 .pkspr.dex-0642.shiny:before {
+  background-position: -200px -2040px;
+}
+.pkspr.pokemon-thundurus-therian.shiny:before {
   background-position: -240px -2040px;
 }
 .pkspr.pokemon-timburr.shiny:before,
@@ -8233,11 +8235,11 @@
 .pkspr.dex-0324.shiny:before {
   background-position: -560px -2040px;
 }
-.pkspr.pokemon-tornadus-therian.shiny:before {
-  background-position: -600px -2040px;
-}
 .pkspr.pokemon-tornadus.shiny:before,
 .pkspr.dex-0641.shiny:before {
+  background-position: -600px -2040px;
+}
+.pkspr.pokemon-tornadus-therian.shiny:before {
   background-position: -640px -2040px;
 }
 .pkspr.pokemon-torracat.shiny:before,
@@ -8392,44 +8394,44 @@
 .pkspr.pokemon-unown-o.shiny:before {
   background-position: -1040px -2070px;
 }
-.pkspr.pokemon-unown-p.shiny:before {
-  background-position: -1080px -2070px;
-}
-.pkspr.pokemon-unown-q.shiny:before {
-  background-position: -1120px -2070px;
-}
-.pkspr.pokemon-unown-question.shiny:before {
-  background-position: -1160px -2070px;
-}
-.pkspr.pokemon-unown-r.shiny:before {
-  background-position: -1200px -2070px;
-}
-.pkspr.pokemon-unown-s.shiny:before {
-  background-position: -1240px -2070px;
-}
-.pkspr.pokemon-unown-t.shiny:before {
-  background-position: 0px -2100px;
-}
-.pkspr.pokemon-unown-u.shiny:before {
-  background-position: -40px -2100px;
-}
-.pkspr.pokemon-unown-v.shiny:before {
-  background-position: -80px -2100px;
-}
-.pkspr.pokemon-unown-w.shiny:before {
-  background-position: -120px -2100px;
-}
-.pkspr.pokemon-unown-x.shiny:before {
-  background-position: -160px -2100px;
-}
-.pkspr.pokemon-unown-y.shiny:before {
-  background-position: -200px -2100px;
-}
-.pkspr.pokemon-unown-z.shiny:before {
-  background-position: -240px -2100px;
-}
 .pkspr.pokemon-unown.shiny:before,
 .pkspr.dex-0201.shiny:before {
+  background-position: -1080px -2070px;
+}
+.pkspr.pokemon-unown-p.shiny:before {
+  background-position: -1120px -2070px;
+}
+.pkspr.pokemon-unown-q.shiny:before {
+  background-position: -1160px -2070px;
+}
+.pkspr.pokemon-unown-question.shiny:before {
+  background-position: -1200px -2070px;
+}
+.pkspr.pokemon-unown-r.shiny:before {
+  background-position: -1240px -2070px;
+}
+.pkspr.pokemon-unown-s.shiny:before {
+  background-position: 0px -2100px;
+}
+.pkspr.pokemon-unown-t.shiny:before {
+  background-position: -40px -2100px;
+}
+.pkspr.pokemon-unown-u.shiny:before {
+  background-position: -80px -2100px;
+}
+.pkspr.pokemon-unown-v.shiny:before {
+  background-position: -120px -2100px;
+}
+.pkspr.pokemon-unown-w.shiny:before {
+  background-position: -160px -2100px;
+}
+.pkspr.pokemon-unown-x.shiny:before {
+  background-position: -200px -2100px;
+}
+.pkspr.pokemon-unown-y.shiny:before {
+  background-position: -240px -2100px;
+}
+.pkspr.pokemon-unown-z.shiny:before {
   background-position: -280px -2100px;
 }
 .pkspr.pokemon-ursaring.shiny:before,
@@ -8543,29 +8545,29 @@
 .pkspr.pokemon-vivillon-ocean.shiny:before {
   background-position: -240px -2130px;
 }
-.pkspr.pokemon-vivillon-poke-ball.shiny:before {
-  background-position: -280px -2130px;
-}
-.pkspr.pokemon-vivillon-polar.shiny:before {
-  background-position: -320px -2130px;
-}
-.pkspr.pokemon-vivillon-river.shiny:before {
-  background-position: -360px -2130px;
-}
-.pkspr.pokemon-vivillon-sandstorm.shiny:before {
-  background-position: -400px -2130px;
-}
-.pkspr.pokemon-vivillon-savanna.shiny:before {
-  background-position: -440px -2130px;
-}
-.pkspr.pokemon-vivillon-sun.shiny:before {
-  background-position: -480px -2130px;
-}
-.pkspr.pokemon-vivillon-tundra.shiny:before {
-  background-position: -520px -2130px;
-}
 .pkspr.pokemon-vivillon.shiny:before,
 .pkspr.dex-0666.shiny:before {
+  background-position: -280px -2130px;
+}
+.pkspr.pokemon-vivillon-poke-ball.shiny:before {
+  background-position: -320px -2130px;
+}
+.pkspr.pokemon-vivillon-polar.shiny:before {
+  background-position: -360px -2130px;
+}
+.pkspr.pokemon-vivillon-river.shiny:before {
+  background-position: -400px -2130px;
+}
+.pkspr.pokemon-vivillon-sandstorm.shiny:before {
+  background-position: -440px -2130px;
+}
+.pkspr.pokemon-vivillon-savanna.shiny:before {
+  background-position: -480px -2130px;
+}
+.pkspr.pokemon-vivillon-sun.shiny:before {
+  background-position: -520px -2130px;
+}
+.pkspr.pokemon-vivillon-tundra.shiny:before {
   background-position: -560px -2130px;
 }
 .pkspr.pokemon-volbeat.shiny:before,
@@ -8659,11 +8661,11 @@
 .pkspr.dex-0278.shiny:before {
   background-position: -200px -2160px;
 }
-.pkspr.pokemon-wishiwashi-school.shiny:before {
-  background-position: -240px -2160px;
-}
 .pkspr.pokemon-wishiwashi.shiny:before,
 .pkspr.dex-0746.shiny:before {
+  background-position: -240px -2160px;
+}
+.pkspr.pokemon-wishiwashi-school.shiny:before {
   background-position: -280px -2160px;
 }
 .pkspr.pokemon-wobbuffet.shiny:before,
@@ -8678,14 +8680,14 @@
 .pkspr.dex-0194.shiny:before {
   background-position: -400px -2160px;
 }
-.pkspr.pokemon-wormadam-sandy.shiny:before {
-  background-position: -440px -2160px;
-}
-.pkspr.pokemon-wormadam-trash.shiny:before {
-  background-position: -480px -2160px;
-}
 .pkspr.pokemon-wormadam.shiny:before,
 .pkspr.dex-0413.shiny:before {
+  background-position: -440px -2160px;
+}
+.pkspr.pokemon-wormadam-sandy.shiny:before {
+  background-position: -480px -2160px;
+}
+.pkspr.pokemon-wormadam-trash.shiny:before {
   background-position: -520px -2160px;
 }
 .pkspr.pokemon-wurmple.shiny:before,
@@ -9723,10 +9725,10 @@
 .pkspr.key-item-bike--green:before {
   background-position: -768px -288px;
 }
-.pkspr.key-item-bike--yellow:before {
+.pkspr.key-item-bike-voucher:before {
   background-position: -800px -288px;
 }
-.pkspr.key-item-bike-voucher:before {
+.pkspr.key-item-bike--yellow:before {
   background-position: -832px -288px;
 }
 .pkspr.key-item-blue-card:before {
@@ -9804,22 +9806,22 @@
 .pkspr.key-item-dowsing-machine-gen5:before {
   background-position: -608px -320px;
 }
-.pkspr.key-item-dowsing-machine-xy:before {
+.pkspr.key-item-dowsing-machine:before {
   background-position: -640px -320px;
 }
-.pkspr.key-item-dowsing-machine:before {
+.pkspr.key-item-dowsing-machine-xy:before {
   background-position: -672px -320px;
 }
 .pkspr.key-item-dragon-skull:before {
   background-position: -704px -320px;
 }
-.pkspr.key-item-dropped-item--red:before {
+.pkspr.key-item-dropped-item:before {
   background-position: -736px -320px;
 }
-.pkspr.key-item-dropped-item--yellow:before {
+.pkspr.key-item-dropped-item--red:before {
   background-position: -768px -320px;
 }
-.pkspr.key-item-dropped-item:before {
+.pkspr.key-item-dropped-item--yellow:before {
   background-position: -800px -320px;
 }
 .pkspr.key-item-elevator-key:before {
@@ -9837,10 +9839,10 @@
 .pkspr.key-item-eon-ticket:before {
   background-position: -960px -320px;
 }
-.pkspr.key-item-exp-share:before {
+.pkspr.key-item-explorer-kit:before {
   background-position: -992px -320px;
 }
-.pkspr.key-item-explorer-kit:before {
+.pkspr.key-item-exp-share:before {
   background-position: 0px -352px;
 }
 .pkspr.key-item-fame-checker:before {
@@ -9864,13 +9866,13 @@
 .pkspr.key-item-gb-sounds:before {
   background-position: -224px -352px;
 }
-.pkspr.key-item-go-goggles-gen3:before {
+.pkspr.key-item-god-stone:before {
   background-position: -256px -352px;
 }
-.pkspr.key-item-go-goggles:before {
+.pkspr.key-item-go-goggles-gen3:before {
   background-position: -288px -352px;
 }
-.pkspr.key-item-god-stone:before {
+.pkspr.key-item-go-goggles:before {
   background-position: -320px -352px;
 }
 .pkspr.key-item-gold-teeth:before {
@@ -9897,10 +9899,10 @@
 .pkspr.key-item-holo-caster--green:before {
   background-position: -576px -352px;
 }
-.pkspr.key-item-holo-caster--red:before {
+.pkspr.key-item-holo-caster:before {
   background-position: -608px -352px;
 }
-.pkspr.key-item-holo-caster:before {
+.pkspr.key-item-holo-caster--red:before {
   background-position: -640px -352px;
 }
 .pkspr.key-item-honor-of-kalos:before {
@@ -10011,10 +10013,10 @@
 .pkspr.key-item-meteorite--4:before {
   background-position: -768px -384px;
 }
-.pkspr.key-item-meteorite-shard:before {
+.pkspr.key-item-meteorite:before {
   background-position: -800px -384px;
 }
-.pkspr.key-item-meteorite:before {
+.pkspr.key-item-meteorite-shard:before {
   background-position: -832px -384px;
 }
 .pkspr.key-item-moon-flute:before {
@@ -10080,19 +10082,19 @@
 .pkspr.key-item-point-card:before {
   background-position: -480px -416px;
 }
-.pkspr.key-item-poke-flute-gen3:before {
+.pkspr.key-item-pokeblock-case:before {
   background-position: -512px -416px;
 }
-.pkspr.key-item-poke-flute:before {
+.pkspr.key-item-pokeblock-kit:before {
   background-position: -544px -416px;
 }
-.pkspr.key-item-poke-radar:before {
+.pkspr.key-item-poke-flute-gen3:before {
   background-position: -576px -416px;
 }
-.pkspr.key-item-pokeblock-case:before {
+.pkspr.key-item-poke-flute:before {
   background-position: -608px -416px;
 }
-.pkspr.key-item-pokeblock-kit:before {
+.pkspr.key-item-poke-radar:before {
   background-position: -640px -416px;
 }
 .pkspr.key-item-powder-jar:before {
@@ -10194,10 +10196,10 @@
 .pkspr.key-item-soot-sack:before {
   background-position: -672px -448px;
 }
-.pkspr.key-item-sparkling-stone-sm:before {
+.pkspr.key-item-sparkling-stone:before {
   background-position: -704px -448px;
 }
-.pkspr.key-item-sparkling-stone:before {
+.pkspr.key-item-sparkling-stone-sm:before {
   background-position: -736px -448px;
 }
 .pkspr.key-item-sprayduck:before {
@@ -10215,10 +10217,10 @@
 .pkspr.key-item-storage-key--galactic-warehouse:before {
   background-position: -896px -448px;
 }
-.pkspr.key-item-storage-key--sea-mauville:before {
+.pkspr.key-item-storage-key:before {
   background-position: -928px -448px;
 }
-.pkspr.key-item-storage-key:before {
+.pkspr.key-item-storage-key--sea-mauville:before {
   background-position: -960px -448px;
 }
 .pkspr.key-item-suite-key:before {
@@ -10233,10 +10235,10 @@
 .pkspr.key-item-surge-badge:before {
   background-position: -64px -480px;
 }
-.pkspr.key-item-tea:before {
+.pkspr.key-item-teachy-tv:before {
   background-position: -96px -480px;
 }
-.pkspr.key-item-teachy-tv:before {
+.pkspr.key-item-tea:before {
   background-position: -128px -480px;
 }
 .pkspr.key-item-tidal-bell:before {
@@ -10257,10 +10259,10 @@
 .pkspr.key-item-travel-trunk--gold:before {
   background-position: -320px -480px;
 }
-.pkspr.key-item-travel-trunk--silver:before {
+.pkspr.key-item-travel-trunk:before {
   background-position: -352px -480px;
 }
-.pkspr.key-item-travel-trunk:before {
+.pkspr.key-item-travel-trunk--silver:before {
   background-position: -384px -480px;
 }
 .pkspr.key-item-tri-pass:before {
@@ -10284,13 +10286,13 @@
 .pkspr.key-item-xtransceiver--blue:before {
   background-position: -608px -480px;
 }
-.pkspr.key-item-xtransceiver--red:before {
+.pkspr.key-item-xtransceiver:before {
   background-position: -640px -480px;
 }
-.pkspr.key-item-xtransceiver--yellow:before {
+.pkspr.key-item-xtransceiver--red:before {
   background-position: -672px -480px;
 }
-.pkspr.key-item-xtransceiver:before {
+.pkspr.key-item-xtransceiver--yellow:before {
   background-position: -704px -480px;
 }
 .pkspr.key-item-z-power-ring:before {
@@ -11043,10 +11045,10 @@
 .pkspr.valuable-item-nugget:before {
   background-position: -512px -736px;
 }
-.pkspr.valuable-item-pearl-string:before {
+.pkspr.valuable-item-pearl:before {
   background-position: -544px -736px;
 }
-.pkspr.valuable-item-pearl:before {
+.pkspr.valuable-item-pearl-string:before {
   background-position: -576px -736px;
 }
 .pkspr.valuable-item-pretty-wing:before {
@@ -11085,10 +11087,10 @@
 .pkspr.valuable-item-slowpoke-tail:before {
   background-position: -960px -736px;
 }
-.pkspr.valuable-item-star-piece:before {
+.pkspr.valuable-item-stardust:before {
   background-position: -992px -736px;
 }
-.pkspr.valuable-item-stardust:before {
+.pkspr.valuable-item-star-piece:before {
   background-position: 0px -768px;
 }
 .pkspr.valuable-item-tiny-mushroom:before {
