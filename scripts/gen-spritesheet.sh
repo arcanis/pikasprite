@@ -48,7 +48,8 @@ cat >> "${LESS_PATH}" <<EOF
 
   background-image: url(./spritesheet-items.png);
 }
-.pkspr[class^="pokemon-"]:before, .pkspr[class*=" pokemon-"]:before {
+.pkspr[class^="pokemon-"]:before, .pkspr[class*=" pokemon-"]:before,
+.pkspr[class^="dex-"]:before, .pkspr[class*=" dex-"]:before {
   width: 40px;
   height: 30px;
 
