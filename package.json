@@ -1,0 +1,11 @@
+{
+  "name": "pikasprite",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^3.9.0"
+  },
+  "files": [
+    "build"
+  ]
+}

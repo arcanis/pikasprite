@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./build/spritesheet.css" />
+        <script src="./build/spritesheet.js"></script>
+    </head>
+    <body>
+        <script>
+            for (const selector of PikaSprite) {
+              const classNames = selector.match(/[^.]+/g);
+              document.write(`<i class="${classNames.join(` `)}"></i>`);
+            }
+        </script>
+    </body>
+</html>
