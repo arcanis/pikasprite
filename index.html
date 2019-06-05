@@ -2,20 +2,23 @@
 <html>
     <head>
         <link rel="stylesheet" href="./build/spritesheet.css" />
-        <script src="./build/spritesheet.js"></script>
+        <script src="./build/colors.js"></script>
+        <script src="./build/classnames.js"></script>
     </head>
     <body>
         <h1>Pokedex</h1>
         <script>
             for (let t = 1; t <= 807; ++t) {
-              document.write(`<i class="pkspr dex-${String(t).padStart(4, `0`)}"></i>`);
+              document.write(`<i class="pkspr-dex-${String(t).padStart(4, `0`)}"></i>`);
             }
         </script>
         <h1>All sprites</h1>
         <script>
-            for (const selector of PikaSprite) {
-              const classNames = selector.match(/[^.]+/g);
-              document.write(`<i class="${classNames.join(` `)}"></i>`);
+            for (const className of PikaSprite.classNames) {
+              if (!PikaSprite.colors[className])
+                continue;
+
+              document.write(`<i class="${className}" style="background-color: ${PikaSprite.colors[className].background}; border-radius: 16px; margin-right: 5px;"></i>`);
             }
         </script>
     </body>

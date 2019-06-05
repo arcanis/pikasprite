@@ -3,6 +3,8 @@
   "version": "1.1.0",
   "license": "MIT",
   "devDependencies": {
+    "canvas": "^2.5.0",
+    "colibrijs": "^1.1.0",
     "less": "^3.9.0"
   },
   "files": [
