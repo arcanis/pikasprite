@@ -121,10 +121,10 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-colibrijs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/colibrijs/-/colibrijs-1.0.0.tgz#cfb2427f46331b160c57190840a7743b7ea4fd14"
-  integrity sha1-z7JCf0YzGxYMVxkIQKd0O36k/RQ=
+colibrijs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/colibrijs/-/colibrijs-1.1.0.tgz#742b42ed927c9cb665c75d7e6592fdf3b9e3e295"
+  integrity sha512-6AhaeZwpdfA3GiKec6Vnm40btiRZSJN7VDid+DrxG1wazZQrvEpc9xWf4ES+YB4U1GoyMMt5idhF4tpt2I4+bg==
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
@@ -640,9 +640,9 @@ punycode@^2.1.0:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 rc@^1.2.7:
   version "1.2.8"
